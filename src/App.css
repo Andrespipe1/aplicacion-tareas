@@ -1,38 +1,21 @@
-.App {
-  text-align: center;
+/* General Styles */
+body {
+  margin: 0;
+  width: 100%;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Listas de Tareas */
+.lista-tareas {
+  width: 600px;
+  min-height: 500px;
+  background-color: #fefeff;
+  opacity: 95%;
+  padding: 25px;
+  margin-left: auto; /* Ajustar la alineación horizontal */
+  margin-right: auto; /* Ajustar la alineación horizontal */
+  border-radius: 26px;
+  align-content: center;
 }
